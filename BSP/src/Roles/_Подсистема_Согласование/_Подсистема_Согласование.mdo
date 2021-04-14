@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b684975-1e9a-4a49-a2f2-53ffc031885b">
+  <name>_Подсистема_Согласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема согласование</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4176bd73-8281-470c-ada8-720974f6c292">
+  <producedTypes>
+    <managerType typeId="ba8a3c30-707e-43fe-a59c-e395785ac1c0" valueTypeId="3af1dff0-7394-4f23-bd2c-b94333340197"/>
+    <valueManagerType typeId="164db992-621a-4510-be86-e8046661e791" valueTypeId="b09dd1ac-2d11-4594-91d9-004693d10346"/>
+    <valueKeyType typeId="27f68a98-ec44-4734-b20b-3d658c0f8d36" valueTypeId="bbd39dd8-41de-4d88-ab88-3e3063d09959"/>
+  </producedTypes>
+  <name>_ОтправитьПисьмоПриОткрытииПослеИзменениияСтатуса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить письмо сразу после изменениия  статуса заявки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>_Отправить Письмо При Открытии после изменениия Статуса</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Отправить Письмо При Открытии после изменениия Статуса</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

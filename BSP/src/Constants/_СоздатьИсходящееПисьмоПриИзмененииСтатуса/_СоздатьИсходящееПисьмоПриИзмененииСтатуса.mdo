@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f99b7974-c1a6-48a4-a255-89f980a5c2d2">
+  <producedTypes>
+    <managerType typeId="2bd68018-4de3-41de-b1ed-4251e36af6a5" valueTypeId="21b8ffe7-f3cd-4d71-a0d3-40cdc9fb2e3f"/>
+    <valueManagerType typeId="40ed20bc-2209-408e-94b0-96183b828660" valueTypeId="51fad595-171e-4eb7-8684-567331bb5ae2"/>
+    <valueKeyType typeId="74d9df25-2b3e-4dcb-873c-af6fcf010eb8" valueTypeId="a0d86b69-d388-48a2-95bc-bff880e2492c"/>
+  </producedTypes>
+  <name>_СоздатьИсходящееПисьмоПриИзмененииСтатуса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать исходящее письмо при изменении статуса заявки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

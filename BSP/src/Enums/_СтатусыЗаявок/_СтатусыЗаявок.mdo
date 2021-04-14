@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d8dfc5-d910-4038-9d48-ec5916510cc6">
+  <producedTypes>
+    <refType typeId="ee02c4d1-d2fd-45f6-9d2f-754906e84801" valueTypeId="5e790d33-eefd-4625-a18f-d6c5e289749a"/>
+    <listType typeId="676dc0d0-4834-4d33-ac0e-7047fd6a3ce0" valueTypeId="f3d9ed4f-d31b-4f25-9abb-ad77fd61e6c4"/>
+    <managerType typeId="b66618b4-295f-4c64-a1b9-9474b44ab154" valueTypeId="bcc6ffa9-77dc-46fe-a001-4b194f0331eb"/>
+  </producedTypes>
+  <name>_СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="459993cd-8777-4696-ad74-033c70782230">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <comment>Отправлен напрямую в бухгалтерию без этапа согласования</comment>
+  </enumValues>
+  <enumValues uuid="1d12bfec-fc38-4b5d-9a79-165bc7930cd4">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+    <comment>Отправлен уполномоченному лицу на согласование	</comment>
+  </enumValues>
+  <enumValues uuid="57db6c0f-8936-48ee-a343-6e0c1fb814e5">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="076d1907-d425-42e9-9c99-ad409792a314">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+    <comment>Заявка не согласована</comment>
+  </enumValues>
+  <enumValues uuid="40965362-50fd-4916-8858-4570f45c01f0">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+    <comment>Бухгалтерия оплатила счет</comment>
+  </enumValues>
+</mdclass:Enum>

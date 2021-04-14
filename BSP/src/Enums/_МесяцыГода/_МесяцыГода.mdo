@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb32d540-cac4-444e-9df2-d6e15b3b0edb">
+  <producedTypes>
+    <refType typeId="b003727a-fb2b-49d4-a728-53a4ffaa3bb5" valueTypeId="e9144bc4-d12d-41ed-945e-9b1bfebc243d"/>
+    <listType typeId="826b5eca-b57c-46b8-8a1c-1ded75cfc147" valueTypeId="c53f2b5a-0467-49ef-a067-1b9f8c915e30"/>
+    <managerType typeId="57f5a353-5acc-47bd-a248-62ed52309514" valueTypeId="da020c68-6afa-47c6-9135-2c9b3f5903dc"/>
+  </producedTypes>
+  <name>_МесяцыГода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Месяцы года</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0e1622f8-7f00-4095-a42e-90a877d6300e">
+    <name>Январь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Январь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c945048f-f5e8-4839-a5c5-841f453473cb">
+    <name>Февраль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Февраль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3aaae0a-6a67-4b4b-b23b-38c9cb3789da">
+    <name>Март</name>
+    <synonym>
+      <key>ru</key>
+      <value>Март</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b7dc6d2-52d5-4d3b-b9db-4ccd01f5653f">
+    <name>Апрель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Апрель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="852806d3-568e-4b0f-8976-b6b0e2d16249">
+    <name>Май</name>
+    <synonym>
+      <key>ru</key>
+      <value>Май</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6be93947-26bb-401e-9bb4-c861e2535ffc">
+    <name>Июнь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Июнь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2169801-bbad-48f1-850a-3a3b4c63d731">
+    <name>Июль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Июль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b8a8f3f-5238-4dca-a118-770644e6cc2b">
+    <name>Август</name>
+    <synonym>
+      <key>ru</key>
+      <value>Август</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="776eae2c-0947-4e91-92e4-fffb4476ae90">
+    <name>Сентябрь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сентябрь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5d591e3-e668-4f7f-af15-a811d54d850f">
+    <name>Октябрь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Октябрь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e992aa2-8e3a-4bab-8867-87ca5285d79d">
+    <name>Ноябрь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ноябрь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70e074df-c3a4-484f-a50b-e687d9bcbf17">
+    <name>Декабрь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декабрь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

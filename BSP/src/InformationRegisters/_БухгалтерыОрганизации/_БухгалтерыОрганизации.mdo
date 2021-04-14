@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af8ed7d0-0139-41aa-94ef-445affc8f092">
+  <producedTypes>
+    <selectionType typeId="cb97c15a-f3fb-4eb0-acbb-6067b17f7ec8" valueTypeId="4726d9f1-7efc-4103-986d-9d0699b9c276"/>
+    <listType typeId="5a25011f-648d-47b0-9c93-3fcb4f3db9cc" valueTypeId="1306505c-7200-47ec-9712-627022d1525a"/>
+    <managerType typeId="fc099797-0b4a-4782-873c-44dc1fbb41ae" valueTypeId="07740fb0-1ee7-45e6-a2de-9fd64616b731"/>
+    <recordSetType typeId="5a91379f-52c8-47c1-9752-40a389093f7a" valueTypeId="aa8dd9ef-08ca-437f-bea1-d4e860f68396"/>
+    <recordKeyType typeId="7b41b69d-b312-4bcf-a2ce-1f2a288f6016" valueTypeId="ceebec2d-e161-48a8-9c77-3de461808dc6"/>
+    <recordType typeId="4488389c-c016-4ac7-bdd6-f395d26ccd70" valueTypeId="1ceb1ddc-1f9f-4aa8-80c8-2b6c361ab30a"/>
+    <recordManagerType typeId="29426fb3-4843-4eed-b17b-63cb38d5c844" valueTypeId="4e3c2d45-5ba0-459c-b706-a84a25fcf0e8"/>
+  </producedTypes>
+  <name>_БухгалтерыОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтеры организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7cd6c1dc-792e-43b5-b62b-5a9e9b00a9bb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef9900f2-1899-440b-99a4-3ffccd51b9fd">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

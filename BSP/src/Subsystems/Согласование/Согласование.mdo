@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd703a2-2fe7-49d6-8535-1feedd9db2b4">
+  <name>Согласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование платежей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister._ДвиженияДенежныхСредств</content>
+  <content>InformationRegister._СогласователиОрганизации</content>
+  <content>InformationRegister._БухгалтерыОрганизации</content>
+  <content>HTTPService.УстановкаСтатусЗаявки</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

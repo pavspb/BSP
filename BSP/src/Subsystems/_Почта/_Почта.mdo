@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ae53fc2-cadc-40a8-97eb-3076bdb05bf6">
+  <name>_Почта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работой с  почтой</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЭлектронноеПисьмоИсходящее</picture>
+  </picture>
+  <content>Document.ЭлектронноеПисьмоИсходящее</content>
+  <content>Catalog.ШаблоныСообщений</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.Пользователи</content>
+  <content>Constant._СоздатьИсходящееПисьмоПриИзмененииСтатуса</content>
+  <content>Constant._ОтправитьПисьмоПриОткрытииПослеИзменениияСтатуса</content>
+</mdclass:Subsystem>

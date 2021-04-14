@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c34aae7-c521-457c-957d-4c2f0b334dee">
+  <producedTypes>
+    <objectType typeId="73aeb8dc-5e51-4362-bf9a-0861c44d6f8e" valueTypeId="a6b33743-f265-49c7-a30b-ed176e16eae0"/>
+    <managerType typeId="98516cac-c9f8-4b81-947c-7445991314e2" valueTypeId="4e1b665a-97b8-47bd-a351-65aae9dbd567"/>
+  </producedTypes>
+  <name>_Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>БДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report._Бюджет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="08a58eab-9c49-49a6-92d1-bad6410f403d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
